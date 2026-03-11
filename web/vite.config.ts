@@ -6,6 +6,10 @@ import viteTsConfigPaths from "vite-tsconfig-paths"
 import tailwindcss from "@tailwindcss/vite"
 import { nitro } from "nitro/vite"
 
+// fumadocs mdx plugin
+import mdx from 'fumadocs-mdx/vite'
+import * as MdxConfig from './source.config'
+
 const config = defineConfig({
   plugins: [
     devtools(),
@@ -17,6 +21,7 @@ const config = defineConfig({
     tailwindcss(),
     tanstackStart(),
     viteReact(),
+    mdx(MdxConfig),
   ],
 })
 
