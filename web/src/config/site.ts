@@ -3,9 +3,8 @@ import type { SiteConfig } from "@/lib/types/site";
 export const siteConfig: SiteConfig = {
   name: "Cutting-edge Learning Tool | Words Builds Worlds",
   author: "Kurt San Jose",
-  description: "An experimental tool to replace traditional learning using language theory.",
+  description: "An experimental tool to replace traditional learning using linguistic theory.",
   keywords: [
-    "language learning",
     "experimental learning",
     "language theory",
     "cognitive science",
