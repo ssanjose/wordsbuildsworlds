@@ -6,6 +6,7 @@ import { siteConfig } from '@/config/site';
 import { buttonVariants } from '@/components/ui/button';
 import { FaGithub } from 'react-icons/fa';
 import { FaRegStar } from "react-icons/fa";
+import { Spinner } from "@/components/ui/spinner";
 
 const Hero = ({ className }: React.HTMLAttributes<HTMLDivElement>) => {
   const [stars, setStars] = React.useState(0)
@@ -49,7 +50,8 @@ const Hero = ({ className }: React.HTMLAttributes<HTMLDivElement>) => {
             className={cn(buttonVariants({ variant: "outline", className: "rounded-md p-4 py-4.5 text-sm font-medium transition-colors" }))}
           >
             <FaRegStar className="h-4 w-4" />
-            <span>{stars} on GitHub</span>
+            {stars === 0 ? <Spinner data-icon="inline-start" /> : stars}
+            <span> on GitHub</span>
           </a>
         </div>
       </div>
