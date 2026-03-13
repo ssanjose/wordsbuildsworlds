@@ -35,7 +35,7 @@ const Hero = ({ className }: React.HTMLAttributes<HTMLDivElement>) => {
           Words builds worlds.
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Use language to remold your perception of the world.
+          A library of anchor words and the mental worlds they build. A practical tool to enhance lateral thinking and empathy.
         </p>
         <div className="flex gap-4">
           <a
