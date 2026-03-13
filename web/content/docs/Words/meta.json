@@ -1,6 +1,8 @@
 {
   "title": "Words",
   "pages": [
-    "..."
-  ]
+    "perception",
+    "definition"
+  ],
+  "defaultOpen": true
 }
