@@ -3,7 +3,7 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 export function baseOptions(): BaseLayoutProps {
   return {
     nav: {
-      title: 'Worlds Builds Worlds',
+      title: 'Words Builds Worlds',
     },
     githubUrl: 'https://github.com/ssanjose/wordsbuildsworlds',
     // links: [
