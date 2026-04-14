@@ -26,12 +26,19 @@ WBW is built to:
 - WBW is an experimental method to create mental models. Please use with caution.
 - Academic learning and apprenticeship are great ways to learn concrete and actionable knowledge. WBW does not replace these kind of method, but plan to enhance it.
 
-## Learn More
+## How To Use
 Check out our website at: https://www.wordsbuildsworlds.com/
 
-## Deployment
-Running in localhost
+## Contributing
+First, you need to have a github account to clone or fork this repository. To run this application, you need npm and node installed.
+
+Then, running locally
 ```cmd
 cd web
 npm run dev
 ```
+
+When you want to make a change in the master repository(which the deployments are based on), you need to fork it, submit the change via a pull request(PR). I'll review it then merge and deploy to the main site.
+
+Thanks, <br/>
+Author
