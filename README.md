@@ -27,7 +27,11 @@ WBW is built to:
 - Academic learning and apprenticeship are great ways to learn concrete and actionable knowledge. WBW does not replace these kind of method, but plan to enhance it.
 
 ## Learn More
-TBD
+Check out our website at: https://www.wordsbuildsworlds.com/docs
 
 ## Deployment
-TBD
+Running in localhost
+```cmd
+cd web
+npm run dev
+```
